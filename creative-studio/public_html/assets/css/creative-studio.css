@@ -4600,6 +4600,10 @@ input[type="button"].btn-block {
   white-space: nowrap;
 }
 
+.navbar-brand img {
+  width: 120px !important;
+}
+
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }
@@ -11682,7 +11686,7 @@ pre .code {
 }
 
 .footer .logo img {
-  width: 35px;
+  width: 150px;
 }
 
 .footer .logo h6 {
