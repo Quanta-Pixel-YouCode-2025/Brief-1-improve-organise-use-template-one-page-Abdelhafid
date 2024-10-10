@@ -4627,6 +4627,7 @@ input[type="button"].btn-block {
 .navbar-nav .dropdown-menu {
   position: static;
   float: none;
+  background-color: #000;
 }
 
 .navbar-text {
@@ -4636,6 +4637,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-collapse {
+  /*background-color: rgba(255, 255, 255, 0.9);*/
   -webkit-flex-basis: 100%;
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%;
@@ -11782,15 +11784,6 @@ pre .code {
 }
 
 
-/*header of Services-Blog-Portfolio-Contact pages*/
-.new-pages-header {
-  height: 20%;
-  min-height: 60px;
-  background: url(../imgs/header.jpg) no-repeat center center fixed;
-  background-size: cover;
-}
-
-
 
 
 .header {
@@ -11800,7 +11793,7 @@ pre .code {
   background-size: cover;
 }
 
-.header .overlay {
+.header .overlay{
   position: absolute;
   left: 0;
   top: 0;
