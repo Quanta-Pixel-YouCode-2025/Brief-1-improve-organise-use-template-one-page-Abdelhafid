@@ -4485,6 +4485,14 @@ input[type="button"].btn-block {
   margin-bottom: -1px;
 }
 
+.navbar-nav .nav-item .nav-link:hover{
+  color: #ff214f !important;
+}
+
+.navbar-nav .nav-item.active{
+  background-color: #bb05059d;
+}
+
 .nav-tabs .nav-link {
   border: 1px solid transparent;
   border-top-left-radius: 0.2rem;
@@ -5063,6 +5071,14 @@ input[type="button"].btn-block {
   background-clip: border-box;
   border: 1px solid #eaf0fc;
   border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.2);
+  z-index: 2;
+  background-color: #000;
+  color: wheat;
 }
 
 .card > hr {
