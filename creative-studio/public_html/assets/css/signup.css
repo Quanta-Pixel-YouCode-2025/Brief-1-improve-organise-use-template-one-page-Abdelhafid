@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+
+#signup-header{
+    background-image: url("../imgs/wp-5.png");
+}
+
+
+.sign-container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(253, 253, 253);
+    /*margin: 0px 250px;*/
+    margin-top: -30px;
+    margin-bottom: -30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 4px 6px 2px rgba(0, 0, 0, 0.308);
+    font-family: Poppins;
+}
+
+
+
+
+
+.sign-img{
+    display: block;
+    padding: 0px ;
+    width: 50%;
+    
+}
+
+.sign-img img{
+    width: 85%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.sign-form{
+    padding: 20px 50px 0px 0px;
+    width: 50%;
+}
+
+
+
+
+
+.sign-title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sign-title h3{
+    font-weight: 500;
+    font-size: 35px;
+    color: rgb(175, 5, 175);
+}
+
+.sign-title p {
+    font-size: 14px;
+    margin-top: -5px;
+    color: rgb(58, 58, 58);
+}
+
+
+
+
+
+
+
+
+
+.sign-form label{
+    color: black;
+    margin-bottom: -7px;
+}
+
+.sign-input input{
+    width: 100%;
+    height: 33px;
+    padding: 6px 10px;
+    border: 0.7px solid rgb(233, 233, 233);
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 12px;
+}
+
+.sign-input input::placeholder{
+    color: lightgrey;
+}
+
+
+
+
+
+.terms {
+    margin: 10px 0px 20px 0px;
+    width: 100%;
+    
+}
+
+
+
+.sign-button{
+    margin-top: 50px;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-weight: 500;
+    color:white ;
+    background-color: rgb(216, 45, 159);
+}
+
+button:hover{
+    color:black ;
+    background-color: rgb(231, 4, 4);
+    transition: color 300ms ease;
+}
